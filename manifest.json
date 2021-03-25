@@ -1,9 +1,9 @@
 {
-  "vendor": "UseDesk",
-  "name": "UseDeskWidget",
+  "vendor": "acceleratorusedesk",
+  "name": "usedeskwidget",
   "version": "1.0.0",
   "title": "UseDesk",
-  "description": "Usedesk block for cool guys.",
+  "description": "Usedesk widget for cool guys.",
   "builders": {
     "pixel": "0.x",
     "docs": "0.x"

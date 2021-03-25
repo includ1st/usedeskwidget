@@ -1,7 +1,7 @@
 {
   "vendor": "acceleratorusedesk",
   "name": "usedeskwidget",
-  "version": "1.0.0",
+  "version": "0.0.1",
   "title": "UseDesk",
   "description": "Usedesk widget for cool guys.",
   "builders": {

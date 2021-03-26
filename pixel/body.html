@@ -1,6 +1,7 @@
 <script type='text/javascript'>
   (function() {
     var widget_id = "{{settings.widgetId}}";
+    var dom = "{{settings.domain}}";
     if (!widget_id) {
       console.error('Warning: No Usedesk Widget ID is defined. Please configure it in the apps admin')
     } else {
@@ -10,7 +11,7 @@
         var s = document.createElement('script');
         s.type = 'text/javascript';
         s.async = true;
-        s.src='//lib.usedesk.ru/secure.usedesk.ru/'+ widget_id + '.js';
+        s.src='//lib.' + dom + '/secure.usedesk.ru/'+ widget_id + '.js';
         var ss = document.getElementsByTagName('script')[0];
         ss.parentNode.insertBefore(s, ss);
       }

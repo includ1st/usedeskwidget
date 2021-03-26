@@ -3,7 +3,7 @@
   "name": "usedeskwidget",
   "version": "9.0.1",
   "title": "UseDesk",
-  "description": "Usedesk widget for cool guys.",
+  "description": "20 communication channels, all messengers, mail, calls, social networks are now just a click away",
   "builders": {
     "pixel": "0.x",
     "docs": "0.x"
@@ -23,16 +23,36 @@
     "vtex.pixel-interfaces": "1.x",
     "vtex.store": "2.x"
   },
-  "settingsSchema": {
+  "settingsSchema": 
+  {
     "title": "UseDesk",
     "type": "object",
-    "properties": {
-      "widgetId": {
-        "title": "Widget ID",
-        "description": "Enter the Widget ID for your account in UseDesk",
-        "type": "string"
+    "properties": 
+    {
+       "domain": 
+        {
+         "title": "domain",
+         "description": "Domain of yours Usedesk",
+         "type": "string",
+         "default": "usedesk.com",
+         "enum": 
+            [
+              "usedesk.com",
+              "usedesk.ru"
+            ],
+          "enumNames": 
+            [
+              "usedesk.com",
+              "usedesk.ru"
+            ]
+          },
+          "widgetId": 
+          {
+            "title": "Widget ID",
+            "description": "Enter the Widget ID for your account in Usedesk",
+            "type": "string"
+          }
       }
-    }
   },
   "$schema": "https://raw.githubusercontent.com/vtex/node-vtex-api/master/gen/manifest.schema"
 }

@@ -1,13 +1,14 @@
 {
-  "name": "JivoChat",
-  "headline": "Com poucos cliques, acesse os serviços de chats, e-mails e ligações em um só lugar.",
-  "overview": "O JivoChat é um messenger completo para lojas virtuais e focado em conversão e retenção. Permite que você se comunique com visitantes e clientes de qualquer lugar: Chat, Telefone, Callback, E-mail, Facebook Messenger, Telegram e Viber.\r\nOs operadores recebem todos os chats, e-mails e ligações em um só app do Jivo, então não precisam mais ficar alternando entre várias janelas e pode ser utilizado no celular e no computador ao mesmo tempo, isso significa menos distrações e todas as ferramentas necessárias para um excepcional serviço de suporte ao cliente.",
+  "name": "Usedesk",
+  "headline": "20 canais de comunicação, todos os mensageiros, email, redes sociais agora a apenas um clique de distância",
+  "overview": "Usedesk Widget é um widget em seu site com base de conhecimento integrada. Ele facilita a busca de artigos úteis e ajuda a enviar perguntas ao departamento de suporte a partir do site",
   "features": [
-    "Obtenha informações detalhadas de visitantes",
-    "Configure gatilhos automáticos",
-    "Monitore visitantes em tempo real",
-    "Receba avaliações da qualidade do serviço",
-    "Ofereça formulário de contato offline"
+    "Conecte seu site ao Usedesk",
+    "Personalizar aparência",
+    "Automatize seu trabalho",
+    "Gerenciar conversas",
+    "Integrações simples",
+    "Rastreie a resposta de cada operadora à velocidade e qualidade de seus clientes"
   ],
   "websiteURL": "https://vtex.com/",
   "support": {
